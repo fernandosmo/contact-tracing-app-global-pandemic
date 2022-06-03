@@ -18,4 +18,4 @@ Sample Contact Tracing app built on Salesforce Platform.
 -   Database Manipulation
 -   Object-Oriented Programming System
 
-A special thanks to ![Manish Choudhari](https://www.linkedin.com/in/manish-choudhary/)
+A special thanks to [Manish Choudhari](https://www.linkedin.com/in/manish-choudhary/)
