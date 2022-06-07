@@ -34,6 +34,10 @@
             ];
     }
 
+    /**
+     * Search a person by name, token or mobile
+     * @return List<Person__c>
+     */
     public static List<Person__c> searchPeople(String searchTerm){
         searchTerm = searchTerm + '%';
         return [
@@ -48,7 +52,11 @@
         ];
     }
 
-    public static Person getPersonById(String personId){
+    /**
+     * Search a person by Id
+     * @return Person__c
+     */
+    public static Person__c getPersonById(String personId){
         List<Person__c> people = [
             SELECT Id, Name, Health_Status__c, Mobile__c, Token__c, Status_Update_Date__c
             FROM Person__c
