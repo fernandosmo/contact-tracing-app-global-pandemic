@@ -4,8 +4,7 @@
  * @author Fernando Silva
  */
 public with sharing class CTPeopleTracingController {
-    
-    
+ 
     public static List<People_Tracing__c> getTraces(String personId) {
         return [
         SELECT Id, Contact_Date__c, Person_1__c, Person_1__r.Health_Status__c, Person_1__r.Token__c, Person_2__c, Person_2__r.Health_Status__c, Person_2__r.Token__c
